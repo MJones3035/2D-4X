@@ -173,6 +173,7 @@ script = ExtResource("1_gbt3x")
 nodesToHide = []
 
 [node name="Camera2D" type="Camera2D" parent="."]
+process_mode = 3
 position = Vector2(959, 1127)
 process_callback = 0
 position_smoothing_enabled = true
