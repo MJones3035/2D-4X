@@ -34,7 +34,7 @@ public partial class Camera : Camera2D
 
         if (zoomInPercentage < 0.5f)
         {
-            panSpeed = Mathf.Clamp(zoomInPercentage * ,MaxSpeed, MinSpeed, MaxSpeed);
+            panSpeed = Mathf.Clamp(zoomInPercentage * MaxSpeed, MinSpeed, MaxSpeed);
         }
         else
         {
